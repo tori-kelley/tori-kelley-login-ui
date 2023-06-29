@@ -1,0 +1,72 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: 1100px;
+  font-family: "Quicksand", Calibri, serif;
+}
+#container {
+  min-width: 300px; 
+  background-color: midnightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+  width: 80vh;
+  background: linear-gradient(180deg, rgb(2,12,36) 0%, rgb(29,120,141) 65%, rgb(220,192,175) 100%);
+  box-shadow: 0px 0px 40px black;
+  border-radius: 50px;
+  align-items: center;
+}
+#login {
+  color: rgb(220,192,175);
+  font-size: 4em;
+  border-bottom: 10px solid rgb(220,192,175);
+ }
+.write-ins {
+  background-color: rgb(29,120,141);
+  color: white;
+  font-size: 20px;
+  width: 45vh;
+  border: 2px solid rgb(22,32,86);
+  border-radius: 5px;
+  height: 6vh;
+}
+.boxes {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: rgb(22,32,86);
+}
+::placeholder {
+  color: rgb(89,180,201);
+}
+.button-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 70vh;
+}
+.option {
+  color: rgb(89,180,201);
+  background-color: rgb(22,32,86);
+  height: 8vh;
+  width: 30vh;
+  border-radius: 8px;
+  font-size: 4vh;
+  border: none;
+  font-weight: bold;
+}
+.option:hover {
+  background-color: rgb(89,180,201);
+  color: white;
+}
+.option:active {
+  height: 9vh;
+  width: 22vh;
+}
+/* citation for borrowed image
