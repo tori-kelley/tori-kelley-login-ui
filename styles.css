@@ -11,23 +11,24 @@ body {
   font-family: "Quicksand", Calibri, serif;
 }
 #container {
-  min-width: 300px; 
-  background-color: midnightblue;
+  min-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 80vh;
   width: 80vh;
+  /*getting rid of the following line creates a dope glass
+  effect, cant decide if I prefer it */
   background: linear-gradient(180deg, rgb(2,12,36) 0%, rgb(29,120,141) 65%, rgb(220,192,175) 100%);
-  box-shadow: 0px 0px 40px black;
+  box-shadow: 0px 0px 50px black;
   border-radius: 50px;
   align-items: center;
 }
 #login {
   color: rgb(220,192,175);
-  font-size: 4em;
+  font-size: 11vh;
   border-bottom: 10px solid rgb(220,192,175);
- }
+}
 .write-ins {
   background-color: rgb(29,120,141);
   color: white;
@@ -39,7 +40,7 @@ body {
 }
 .boxes {
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 4vh;
   color: rgb(22,32,86);
 }
 ::placeholder {
@@ -47,26 +48,25 @@ body {
 }
 .button-options {
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
   width: 70vh;
 }
 .option {
   color: rgb(89,180,201);
   background-color: rgb(22,32,86);
-  height: 8vh;
+  height: 6vh;
   width: 30vh;
   border-radius: 8px;
-  font-size: 4vh;
+  font-size: 3.5vh;
   border: none;
-  font-weight: bold;
 }
 .option:hover {
   background-color: rgb(89,180,201);
   color: white;
 }
 .option:active {
-  height: 9vh;
-  width: 22vh;
+  font-weight: bold;
 }
-/* citation for borrowed image
+/* 
+do I need a citation for borrowed image? if so how?
+*/
