@@ -10,21 +10,19 @@ body {
   background-size: 1600px;
   font-family: "Quicksand", Calibri, serif;
 }
-#container {
+.container {
   min-width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   height: 80vh;
   width: 80vh;
-  /*getting rid of the following line creates a dope glass
-  effect, cant decide if I prefer it */
   background: linear-gradient(180deg, rgb(2,12,36) 0%, rgb(29,120,141) 65%, rgb(220,192,175) 100%);
   box-shadow: 0px 0px 50px black;
   border-radius: 50px;
   align-items: center;
 }
-#login {
+.login {
   color: rgb(220,192,175);
   font-size: 11vh;
   border-bottom: 10px solid rgb(220,192,175);
@@ -38,7 +36,7 @@ body {
   border-radius: 5px;
   height: 6vh;
 }
-.boxes {
+.sign-ins {
   font-weight: bold;
   font-size: 4vh;
   color: rgb(22,32,86);
