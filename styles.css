@@ -8,10 +8,14 @@ body {
   height: 100vh;
   background-image: url("https://images.pexels.com/photos/1533720/pexels-photo-1533720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
   background-size: 1600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Quicksand", Calibri, serif;
 }
 .container {
   min-width: 300px;
+  min-height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -30,7 +34,7 @@ body {
 .write-ins {
   background-color: rgb(29,120,141);
   color: white;
-  font-size: 20px;
+  font-size: 4vh;
   width: 45vh;
   border: 2px solid rgb(22,32,86);
   border-radius: 5px;
