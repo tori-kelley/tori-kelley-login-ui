@@ -34,54 +34,15 @@ body {
   border-bottom: 10px solid rgb(220,192,175);
 }
 
-.write-ins {
-  background-color: rgb(29,120,141);
-  color: white;
-  font-size:calc(12px + 1.5vh);
-  width: calc(120px + 15vh);
-  border: 2px solid rgb(22,32,86);
-  border-radius: 5px;
-  height: 6vh;
-}
-
-.sign-ins {
-  font-weight: bold;
-  font-size:calc(12px + 1.5vh);
-  color: rgb(22,32,86);
-}
-
-::placeholder {
-  color: rgb(89,180,201);
-}
-
-.button-options {
+.social-media-logos {
   display: flex;
   justify-content: space-evenly;
-  width: 70vh;
-}
-
-.option {
-  color: rgb(89,180,201);
-  background-color: rgb(22,32,86);
-  height: 6vh;
-  width: calc(60px + 7.5vh);
-  border-radius: 8px;
-  font-size:calc(12px + 1.5vh);
-  border: none;
-}
-
-.option:hover {
-  background-color: rgb(89,180,201);
-  color: white;
-}
-
-.option:active {
-  font-weight: bold;
+  width: calc(200px + 25vh);
 }
 
 .social-media {
   background-color: transparent;
-  color: rgb(220,192,175);
+  color: rgb(89,180,201);
   border: none;
   font-size: calc(16px + 2vh)
 }
@@ -94,8 +55,41 @@ body {
   font-size: calc(18px + 2.25vh)
 }
 
-.social-media-logos {
-  display: flex;
-  justify-content: space-evenly;
+.text-boxes {
+  font-weight: bold;
+  font-size:calc(12px + 1.5vh);
+  color: rgb(22,32,86);
+}
+
+.sign-in-input {
+  background-color: rgb(29,120,141);
+  color: white;
+  font-size:calc(12px + 1.5vh);
   width: calc(120px + 15vh);
+  border: 2px solid rgb(22,32,86);
+  border-radius: 5px;
+  height: 6vh;
+}
+
+::placeholder {
+  color: rgb(89,180,201);
+}
+
+.sign-in-button {
+  color: rgb(89,180,201);
+  background-color: rgb(22,32,86);
+  height: 6vh;
+  width: calc(60px + 7.5vh);
+  border-radius: 8px;
+  font-size:calc(12px + 1.5vh);
+  border: none;
+}
+
+.sign-in-button:hover {
+  background-color: rgb(89,180,201);
+  color: white;
+}
+
+.sign-in-button:active {
+  font-weight: bold;
 }
