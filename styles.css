@@ -28,6 +28,10 @@ body {
   align-items: center;
 }
 
+.login-div {
+  height: calc(80px + 10vh);
+}
+
 .login {
   color: rgb(220,192,175);
   font-size:calc(40px + 5vh);
